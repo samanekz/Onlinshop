@@ -1,0 +1,107 @@
+.login-container{
+    height: 1000px;
+    padding: 30px;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% ); ;
+}   
+
+.login-box{
+    background-color: rgba(255, 255, 255, .1);
+    padding: 25px 40px;
+    font-size: 1em;
+    border-radius: 15px;
+    margin: 20px 30px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    color: white;
+}
+
+.login-box .input-group{
+    margin: 15px 0px;
+
+}
+
+.login-box .input-group{
+    display: block;
+}
+
+.login-box .input-group input{
+    background: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.login-box .submit-btn-container {
+    text-align: center;
+}
+
+.login-box .submit-btn-container input{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #e74c3c;
+    border-radius: 15px;
+    border: none;
+    font-size:1.2em;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.login-box .pass-forget{
+    margin: 5px;
+    color: #2980b9;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.login-box .submit-btn-neue{
+    text-align: center;
+}
+.login-box .submit-btn-neue input{
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    background-color: #e67e22;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.login-box .social-auth{
+    border-top: 2px solid rgba(255, 255, 255, .8);
+    margin: 10px 40px;
+    text-align: center;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.login-box .social-auth a{
+
+}
+
+.login-box .social-auth i{
+    color: white;
+    font-size: 1.5em;
+}
+
+.login-img-container{
+    margin-top: 20px;
+}
+
+.login-img-container img{
+    width: 500px;
+    height: 600px;
+
+}

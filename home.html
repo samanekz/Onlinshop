@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/67881bf4df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="login.html">login</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="images/s1.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, fugit.</span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="images/s2.jpg" alt="">
+                    <span style="color: white;">Lorem ipsum dolor sit amet <br /> adipisicing elit.</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="images/s3.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="product-sec">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="images/p1.jpg" alt="">
+                            <span class="hot-offer">Bestseller</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Sony MDR-ZX110 faltbarer Bügelkopfhörer, schwarz
+                        </div>
+                        <div class="buttoms">
+                            <div class="left">
+                                <div class="price"> 100 € </div>
+                            </div>
+                            <div class="right">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Kaufen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Bewertungen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="images/p2.jpg" alt="">
+                            <span class="hot-offer">Bestseller</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            PowerLocus P6 Bluetooth Kopfhörer Over Ear
+                        </div>
+                        <div class="buttoms">
+                            <div class="left">
+                                <div class="price"> 200 € </div>
+                            </div>
+                            <div class="right">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Kaufen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Bewertungen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="images/p3.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            XPFFXX Verstellbares Headset Großer Kopfhörer
+                        </div>
+                        <div class="buttoms">
+                            <div class="left">
+                                <div class="price"> 300 € </div>
+                            </div>
+                            <div class="right">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Kaufen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Bewertungen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="images/p4.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            DOQAUS Bluetooth Kopfhörer Over Ear
+                        </div>
+                        <div class="buttoms">
+                            <div class="left">
+                                <div class="price"> 400 € </div>
+                            </div>
+                            <div class="right">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Kaufen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Bewertungen</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="supper-offer-sec">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="supper-offer-box">
+                        <span class="titel"> Befristetes Angebot</span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <img src="images/super-product.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="specification">
+                                        <div class="price-row">
+                                            <span class="price">100 Euro</span>
+                                            <span class="off">Sparen Sie 60%</span>
+                                        </div>
+                                        <div class="angebot-titel"> Sony MDR-ZX110 faltbarer Bügelkopfhörer, schwarz
+                                        </div>
+                                    </div>
+                                    <div class="counter">
+                                        <div class="counter-down">
+                                            <span id="hours">20</span> :
+                                            <span id="minutes">30</span> :
+                                            <span id="seconds">40</span>
+                                        </div>
+                                        <div class="remaining-time">
+                                            verbleibende Zeit bis zum Angebot
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="/images/friday.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="left">
+                        <div class="titel">
+                            Über uns
+                        </div>
+                        <div class="describe">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam iure repellat consequuntur
+                            maxime cupiditate libero? Reprehenderit perferendis, totam tenetur vero aut, quasi nostrum
+                            animi, maiores nulla quo laboriosam unde dignissimos et quis nobis nihil eum! Fugit
+                            obcaecati, distinctio enim modi commodi magnam totam pariatur temporibus fugiat voluptas
+                            cumque laboriosam laudantium?
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="right">
+                        <div class="titel">
+                            Sozialen Medien
+                        </div>
+                        <div class="socials">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                Copyright © 2020 All Rights Reserved
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js "></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>

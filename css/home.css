@@ -1,0 +1,347 @@
+/*navbar*/
+header{
+    font-size: 2em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+header nav .nav-right{
+
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-right a{
+    color: #444 ;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+}
+
+header nav .nav-left .register-login-btn{
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .nav-left .register-login-btn a{
+    color: #444;
+    margin:0px 10px;
+    font-size: 0.9em;
+}
+
+header nav .nav-left .register-login-btn i{
+    margin: 7px;
+    color:#444;
+    font-size: 1em;
+}
+
+/*slider section*/
+
+ .slider{
+    font-size: 0.5em;
+    position: relative;
+ }
+
+
+ .slider .slides .item{
+    position: relative;
+    display: none;
+
+ }
+
+ .slider .slides .active{
+    display: block;
+    animation-name: animate__fadeInBottomRight;
+    animation-duration: 2s;
+ }
+
+ .slider .slides .item img{
+    width: 100%;
+ }
+
+ .slider .slides .item span{
+    position: absolute;
+    z-index: 1;
+    right: 15%;
+    top: 40%;
+    font-size: 2em;
+    color: #222;
+ }
+
+ .slider .buttons{
+    position: absolute;
+    color: #444;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+ }
+
+ .slider .buttons i{
+    margin-right: 5px;
+    cursor: pointer;
+ }
+
+ .slider .buttons i:hover{
+    color: white;
+ }
+
+ /*Product Section*/
+ .product-sec{
+   padding: 20px 10px;
+   font-size: 1.5em;
+ }
+
+.shoping-card{
+    text-align: center;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, .2);
+    margin: 15px 20px;
+    border-radius: 5px;
+    padding: 10px;
+ }
+
+.img-sec {
+   position: relative;
+
+ }
+
+.img-sec img{
+width: 20%%;
+}
+
+.shoping-card .img-sec .hot-offer{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background-color: #e74c3c;
+   color: white;
+   padding: 20px;
+   border-radius: 10px;
+   font-size: 0.9em;
+   
+}
+.shoping-card .img-sec .stars{
+   position:absolute;
+   top: 10px;
+   right: 10px;
+   
+}
+
+.shoping-card .img-sec .stars i{
+   color: #f1c40f;
+}
+
+.shoping-card .title{
+   color: gray;
+   padding: 10px 10px;
+}
+
+ .shoping-card .buttoms{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding: 15px 15px;
+   margin-top: 25px;
+ }
+
+.shoping-card .buttoms .left{
+   position: absolute;
+   bottom: 5px;
+   left: 5px;
+}
+
+.shoping-card .buttoms .left .price{
+   color: #666;
+   font-weight: bold;
+}
+
+.shoping-card .buttoms .right{
+   display: flex;
+   position: absolute;
+   bottom: 2px;
+   right: 5px;
+}
+
+.shoping-card .buttoms .right .extend-btn{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 5px;
+   background-color: #2ecc71;
+   border-radius: 25px;
+   color: white;
+   cursor: pointer;
+   padding: 8px 12px;
+   width: 50px;
+   transition: 0.75s;
+}
+
+.shoping-card .buttoms .right .extend-btn:hover{
+   width: 170px;
+}
+
+.shoping-card .buttoms .right .extend-btn .b-text{
+   display: none;
+   color: white;
+}
+
+.shoping-card .buttoms .right .extend-btn:hover .b-text{
+   display: block;
+}
+
+.shoping-card .buttoms .right .extend-btn .b-icon{
+   color: white;
+}
+
+/*Special-offer section*/
+.supper-offer-sec{
+   margin: 10px 15px;
+   font-size: 1.5em;
+}
+
+.supper-offer-sec .supper-offer-box{
+   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, .2);
+   margin-right: 50px;
+   text-align: center;
+   
+}
+
+.supper-offer-box .titel{
+   color: white;
+   background-color: #e74c3c;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   font-size: 1.4em;
+   padding: 5px 20px;
+   
+}
+
+.supper-offer-box .body .image-container{
+   
+
+}
+
+.supper-offer-box .body .image-container img{
+   width: 100%;
+}
+
+.supper-offer-box .body .specification{
+   margin: 40px;
+
+}
+
+.supper-offer-box .body .specification .price-row{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.supper-offer-box .body .specification .price{
+   color: #888;
+   font-size: 1.2em;
+   margin-right: 50px;
+}
+
+.supper-offer-box .body .specification .off{
+   background-color: #e74c3c;
+   color: white;
+   border-radius: 25px;
+   padding: 10px 15px;
+   margin-left: 50px;
+}
+
+.supper-offer-box .body .specification .angebot-titel{
+   margin-top: 40px;
+   font-size: 1.5em;
+   color: #666;
+   font-weight: bold;
+}
+
+.supper-offer-box .body .counter{
+   border-top:5px solid rgba(0, 0, 0, .3);
+   margin: 0px 100px;
+   padding-top: 50px;
+   font-size: 1.5em;
+}
+.supper-offer-box .body .counter .counter-down{
+   color: #666;
+}
+.supper-offer-box .body .counter .remaining-time{
+   font-size: 0.7em;
+   color: #999;
+   padding: 30px 0px;
+}
+  
+.banner{
+   text-align: center;
+   padding: 0px 2px;
+}
+
+.banner img{
+   box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, .2);
+   border-radius: 10px;
+   width: 70%;
+}
+
+.dragble.list img{
+   width: 10% !important;
+   margin: auto;
+}
+
+.footer{
+   font-size: 2em;
+   border: 2px solid #888;
+   color: white;
+   background-color: #999;
+   margin: 20px 15px;
+}
+
+.footer .left{
+   padding-left: 40px;
+}
+.footer .left .titel{
+   font-weight: bold;
+   padding: 15px 5px;
+   font-size: 1.2em;
+}
+
+.footer .left .describe{
+   margin-bottom: 15px;
+   font-size: 0.9em ;
+   line-height: 1.5em;
+}
+
+.footer .right{
+   text-align: center;
+}
+
+.footer .right .titel{
+   padding: 15px 0px;
+   font-size: 1.2em;
+}
+
+.footer .right .socials{
+
+}
+
+.footer .right a i{
+   color: white;
+   padding: 5px 30px;
+   font-size: 1.5em;
+}
+
+.footer .bottom{
+   background-color: #333;
+   text-align: center;
+   padding: 15px 40px;
+   font-size: 0.7em;
+}
+
